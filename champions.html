@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>champs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    .flip-card {
+    background-color: transparent;
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+    perspective: 1000px;
+    }
+  
+    .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    }
+  
+    .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+    }
+  
+    .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    }
+  
+    .flip-card-front {
+    background-color: black;
+    color: black;
+    }
+  
+    .flip-card-back {
+    background-color: black;
+    color: white;
+    transform: rotateY(180deg);
+    }
+    p2 {
+        color: yellow;
+        font-size: 15px;
+    }
+    p3 {
+        font-size: 10px;
+    }
+
+</style>
+<body>
+    <header>
+        <h1>League of Legends</h1>
+        <nav>
+            <ul>
+                <a href="index.html">Home</a>
+                <a href="champions.html">Champions</a>
+                <a href="modes.html">Modes</a>
+            </ul>
+        </nav>
+    </header>
+    <container>
+        <h2>Champions</h2>
+        <div class="champion-grid">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="Ahri.webp"style="width:200px;height:300px;">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Ahri</h1>
+                    <p2>The Nine-Tailed Fox</p2>
+                    <p3>Innately connected to the latent power of Runeterra, Ahri is a vastaya who can reshape magic into orbs of raw energy. She revels in toying with her prey by manipulating their emotions before devouring their life essence. Despite her predatory nature, Ahri retains a sense of empathy as she receives flashes of memory from each soul she consumes.</p3>
+                  </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="jinx.webp"style="width:200px;height:300px;">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Jinx</h1>
+                    <p2>The Loose Cannon</p2>
+                    <p3>A manic and impulsive criminal from Zaun, Jinx lives to wreak havoc without care for the consequences. With an arsenal of deadly weapons, she unleashes the loudest blasts and brightest explosions to leave a trail of mayhem and panic in her wake. Jinx despises boredom, and gleefully brings her own chaotic brand of pandemonium wherever she goes.</p3>
+                  </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="fiddle.jpg"style="width:200px;height:300px;">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Fiddlesticks</h1>
+                    <p2>The Ancient Fear</p2>
+                    <p3>Something has awoken in Runeterra. Something ancient. Something terrible. The ageless horror known as Fiddlesticks stalks the edges of mortal society, drawn to areas thick with paranoia where it feeds upon terrorized victims. Wielding a jagged scythe, the haggard, makeshift creature reaps fear itself, shattering the minds of those unlucky enough to survive in its wake. Beware the sounding of the crow, or the whispering of the shape that appears almost human… Fiddlesticks has returned.</p3>
+                  </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="garen.avif"style="width:200px;height:300px;">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Garen</h1>
+                    <p2>The Might of Demacia</p2>
+                    <p3>A proud and noble warrior, Garen fights as one of the Dauntless Vanguard. He is popular among his fellows, and respected well enough by his enemies—not least as a scion of the prestigious Crownguard family, entrusted with defending Demacia and its ideals. Clad in magic-resistant armor and bearing a mighty broadsword, Garen stands ready to confront mages and sorcerers on the field of battle, in a veritable whirlwind of righteous steel.</p3>
+                  </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="singed.jpg"style="width:200px;height:300px;">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Singed</h1>
+                    <p2>The Mad Chemist</p2>
+                    <p3>Singed is a Zaunite alchemist of unmatched intellect, who has devoted his life to pushing the boundaries of knowledge—with no price, even his own sanity, too high to pay. Is there a method to his madness? His concoctions rarely fail, but it appears to many that Singed has lost all sense of humanity, leaving a toxic trail of misery and terror in his wake.</p3>
+                  </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="yuumi.avif"style="width:200px;height:300px;">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Yuumi</h1>
+                    <p2>The Magical Cat</p2>
+                    <p3>A magical cat from Bandle City, Yuumi was once the familiar of a yordle enchantress, Norra. When her master mysteriously disappeared, Yuumi became the Keeper of Norra's sentient Book of Thresholds, traveling through portals in its pages to search for her. Yearning for affection, Yuumi seeks friendly companions to partner with on her journey, protecting them with luminous shields and fierce resolve. While Book strives to keep her on task, Yuumi is often drawn to worldly comforts, such as naps and fish. In the end, however, she always returns to her quest to find her friend.</p3>
+                  </div>
+                </div>
+            </div>
+            
+        </div>
+    </container>
+    <footer>
+        <p>Kyle Tang 2024</p>
+    </footer>
+</body>
+</html>

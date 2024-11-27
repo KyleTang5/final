@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 16px 32px;
+    background-color: darkslategray;
+}
+nav ul {
+    right: 10px;
+    position: absolute;
+    font-size: 15px;
+}
+
+h1{
+    font-size: 24px;
+    color: yellow;
+}
+h2 {
+    top: 20px;
+    position: absolute;
+    left: 45%;
+}
+h4 {
+    color: yellow;
+    font-size: 30px;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+.champion-grid {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 20px;
+    padding: 32px;
+    justify-content: center;
+}
+
+.champion-card {
+    background-color: black;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: darkslategray;
+    color: white
+}
+
+@media (max-width: 768px) {
+    .nav-bar {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .champion-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
